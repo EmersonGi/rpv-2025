@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./style.css">
     <title>Aula 02 - HTML</title>
 </head>
 <body>
-   <h1 style="color: #444; text-align: center; font-size: 3rem; font-weight: 800">Receita de Pudim</h1>
-   <img  src="./images/mobile-pudim-de-liquidificador.webp" alt="Imagem-pudim" width="500rem" style="display: block;margin: 0 auto; ">
-   <section style="background-color:  lightgreen;font-family: sans-serif; font-size: 24px;">
-    <h2 style="text-align: center;font-size: 24px;"> Ingredientes</h2>
+   <h1 >Receita de Pudim</h1>
+   <img class="Imagem-pudim" src="./images/mobile-pudim-de-liquidificador.webp" alt="Imagem-pudim">
+   <section id="ingrediente">
+    <h2> Ingredientes</h2>
         <ul>
             <li>1 lata de Leite Condensado</li>
             <li>1 lata de Leite Integral (utilize a mesma lata do Leite Condensado como medida)</li>
@@ -18,9 +19,9 @@
             <li>1/2 xícara (chá) de açúcar</li>
         </ul>
    </section>
-   <section style="background-color: rgb(113, 218, 250)">
-    <h2 style="color: red; font-size: 48px; text-align: center;" >Modo de Preparo</h2>
-    <ol style="font-family: sans-serif">
+   <section id="modo-de-preparo">
+    <h2>Modo de Preparo</h2>
+    <ol>
         <li>No liquidificador, bata o Leite Condensado, o Leite Integral, os ovos e a Essência de Baunilha até obter um creme homogêneo.</li>
         <li>Em uma panela média, coloque o açúcar e leve ao fogo baixo, mexendo sem parar, até obter um caramelo dourado. Despeje o caramelo em uma forma redonda com furo no centro (com capacidade de 1 litro).</li>
         <li>Despeje o creme do liquidificador sobre o caramelo na forma. Cubra com papel alumínio e leve para assar em banho-maria em forno pré-aquecido a 180°C por 1 hora e 30 minutos ou até dourar e firmar.</li>
@@ -29,6 +30,11 @@
         
     </ol>
    </section>
-    
+    <footer>
+        <p>Botão</p>
+             <input type="text" placeholder="Pesquisar">
+        <button>pesquisar</button>
+   
+    </footer>
 </body>
 </html>

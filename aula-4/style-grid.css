@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #202020;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid red;
+  flex-direction: column;
+  height: 100vh;
+  max-height: 100vh;
+}
+section {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 50px);
+  border: 1px solid red;
+}
+.box {
+  width: 30px;
+  height: 30px;
+  background-color: #c2c2c2;
+}

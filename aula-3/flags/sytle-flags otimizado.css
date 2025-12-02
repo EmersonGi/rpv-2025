@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.bg-color-white {
+    background-color: white;
+}
+.bg-color-red{
+    background-color: red;
+}
+.bg-color-green{
+    background-color: green;
+}
+.bg-color-blue{
+    background-color: blue;
+}
+
+.bg-color-black{
+    background-color: black;
+}
+.bg-color-yellow{
+    background-color: yellow;
+}
+
+#flags {
+    width: 100vw;
+    height: 300px;
+    background-color: rgb(20, 34, 116);
+       display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.flag {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    
+}
+.bar-vertical{
+    width:40%;
+    height: 100%;
+
+}
+.bar-horizontal{
+    width: 120px;
+    height: 40px;
+}
+#bar-red{
+    width: 40px;
+    height: 100%;
+}
+
+#bar-green{
+    width: 40px;
+    height: 100%;
+}
+
+#bar-white{
+    width: 40px;
+    height: 100%;
+}
+
+#bar-blue{
+    width: 40px;
+    height: 100%;
+}
+
+#bar-red-horizontal {
+    width: 120px;
+    height: 40px;
+}
+
+#bar-yellow-horizontal {
+    width: 120px;
+    height: 40px;
+}
+
+#bar-black-horizontal {
+    width: 120px;
+    height: 40px;
+}
+
+.flag-horizontal {
+    display: flex;
+    flex-direction: column;
+}
+.envolve-flag{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
