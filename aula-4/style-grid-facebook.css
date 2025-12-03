@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+
+  grid-template-areas:
+    "header header header header"
+    "header header header header"
+    "header header header header"
+    "menu-l timeline timeline menu-r"
+    "menu-l timeline timeline menu-r"
+    "menu-l timeline timeline menu-r"
+    "menu-l timeline timeline menu-r"
+    "menu-l timeline timeline menu-r"
+    "menu-l timeline timeline menu-r"
+    "menu-l timeline timeline menu-r"
+    "menu-l timeline timeline menu-r"
+    "menu-l timeline timeline menu-r";
+}
+
+#header {
+  grid-area: header;
+  background-color: red;
+}
+#menu-left {
+  grid-area: menu-l;
+  background-color: green;
+}
+#menu-right {
+  grid-area: menu-r;
+  background-color: blue;
+}
+#content {
+  grid-area: timeline;
+  background-color: yellow;
+}
+#menu-right {
+}
