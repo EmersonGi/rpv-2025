@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="formCadastro">
+
+        <label>Email empresarial</label>
+        <input type="email" placeholder="Digite um email válido" id="email">
+        <small id="emailErro"></small> <!-- Erro de validação do email (tag <small> representa texto de menor importância ) -->
+
+        <label>Senha</label>
+        <input type="password" placeholder="Digite uma senha válida" id="senha">
+        <div id="forcaSenha"></div>
+
+        <label>CEP</label>
+        <input type="text" placeholder="Ex.: 12345-67" id="cep"><!-- estrutura input -> type= tipo texto, id= identificador único com nome CEP -->
+
+        <label>Sobre você</label> <!-- A tag <label> serve para identificar, descrever e associar um texto a um campo de formulário, melhorando usabilidade, acessibilidade e semântica. -->
+        <textarea id="sobre" maxlength="500"></textarea>
+        <div id="contador">0/500</div>
+
+        <button type="submit">Enviar</button>
+    </form>
+    <script src="./app.js"></script>
+</body>
+</html>
