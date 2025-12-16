@@ -18,7 +18,10 @@ function resetForm(){
 
 formLogin.addEventListener('submit', (event) => {
     event.preventDefault()
-    validaInformacoes(usernameInput.value, passwordInput.value)
+    // validaInformacoes(usernameInput.value, passwordInput.value)
+
+    console.log('usernameInput', usernameInput.value.toLowerCase())
+    console.log('usernameInput', usernameInput.value.toUpperCase())
 
     // Validações do formulário
     // 1. Username > 6 caracteres
